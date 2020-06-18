@@ -1,0 +1,146 @@
+body{
+    background-color: black;
+    background-image: url(image/univers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Wrap{
+    width: 700px;
+    margin: 0 auto;
+}
+
+.Container{
+    margin-top: 180px;
+}
+
+.Content{
+    background-color: white;
+    width: 700px;
+    height: 300px;
+}
+
+h1{
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+.Menu{
+    float: right;
+}
+
+.Menu ul li{
+    display: inline;
+    color: white;
+    margin-left: 32px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Menu ul{
+    margin-top: 5px;
+}
+
+.Menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.Menu ul li a:hover{
+    color: darkred;
+}
+
+.Slider{
+    border: 1px solid white;
+    width: 600px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.AboutMe{
+    width: 600px;
+    height: 200px;
+    margin-top: 50px;
+}
+
+.AboutImg{
+    background-image: url(image/moi.jpg);
+    float: left;
+    height: 192px;
+    width: 108px;
+}
+
+.AboutText{
+    height: 128px;
+    width: 450px;
+    float: right;
+}
+
+.AboutText p{
+    line-height: 20px;
+    text-align: justify;
+}
+
+.AboutIcone{
+    height: 35px;
+    width: 150px;
+    float: right;
+
+}
+
+.AboutIcone ul{
+    height: 35px;
+    width: 130px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    margin-right: 40px;
+}
+
+.AboutIcone ul li a{
+    text-decoration: none;
+}
+
+.AboutIcone ul li{
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.Social{
+    background-image: url(image/icone.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 450px;
+}
+
+.fb{
+    background-position: 0 0;
+    text-indent: -5865px;
+    width: 35px;
+    height: 35px;
+}
+
+.tw{
+    background-position: -37px 0;
+    text-indent: -5865px;
+    width: 35px;
+    height: 35px;
+}
+
+.gt{
+    background-position: -74px 0;
+    text-indent: -5865px;
+    width: 35px;
+    height: 35px;
+}
+
+.ln{
+    background-position: -112px 0;
+    text-indent: -5865px;
+    width: 35px;
+    height: 35px;
+}
